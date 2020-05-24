@@ -1,0 +1,49 @@
+/* Zerando as margens do docupento inteiro */
+body{
+	margin:0;
+}
+
+/* Estilo da div que fica no fundo do menu */
+.menu{
+	width: 600px;
+	height: 100px;
+	background-color: #DDD;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	margin-left: -300px;
+	justify-content: center;
+    display: flex;
+    border-top-right-radius: 20px !important;
+    border-top-left-radius: 20px !important;
+}
+
+/* Estilo das divs que recebem os icones e são animadas via jQuery */
+div.icone{
+	width: 100px;
+	height: 100px;
+	background-color: #CCC;
+	float: left;
+	margin-right: 5px;
+}
+/* Estilo das divs que recebem os icones com o mouse em cima fica colorido */
+div.icone:hover{
+	width: 100px;
+	height: 100px;
+	background-color: #CCC;
+	float: left;
+	margin-right: 5px;
+	color: #6a6ae4;
+}
+
+/* Alinhamento ao centro das palavras a cima dos icones do menu */
+.menu > div.icone div{
+	text-align: center;
+}
+
+/* Tamanho dos iones do menu */
+svg{
+	width: 100%;
+    height: 75%;
+}
+
